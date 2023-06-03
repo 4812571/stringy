@@ -24,5 +24,5 @@ func Fuzz(data []byte) int {
 		_ = str.KebabCase("?", "")
 	}
 
-	return 0
+	return 1
 }

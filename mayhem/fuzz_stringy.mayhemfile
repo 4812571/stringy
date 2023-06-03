@@ -1,0 +1,6 @@
+project: stringy
+
+target: string_functions
+
+cmds:
+    - cmd: ./fuzz_stringy.libfuzzer
